@@ -1,6 +1,9 @@
 #projects { 
     padding: -100px;
 }
+.heady {
+    padding-top: 100px;
+}
 .work { 
     background-color: pink;
     height: 100vh;
@@ -13,4 +16,7 @@
 .infoblock {
     margin-top: 100px;
     color: black;
+}
+.jobtext {
+    max-width: 70%;
 }

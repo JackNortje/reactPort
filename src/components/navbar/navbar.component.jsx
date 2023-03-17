@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() { 
 
     return (
-    <nav class="navbar navbar-fixed-top navbar-expand-md bg-black navbar-dark ">
+    <nav class="navbar fixed-top navbar-expand-md bg-black navbar-dark ">
         <div class="container  ">
                 <a href="#intro" class="navbar-brand">Jack.</a>
                 <button 
