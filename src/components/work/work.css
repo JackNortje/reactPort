@@ -1,0 +1,16 @@
+#projects { 
+    padding: -100px;
+}
+.work { 
+    background-color: pink;
+    height: 100vh;
+    margin-top: -100px;
+}
+.button { 
+    padding-top: 120px;
+}
+
+.infoblock {
+    margin-top: 100px;
+    color: black;
+}

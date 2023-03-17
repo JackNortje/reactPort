@@ -1,10 +1,9 @@
 
-import './about.css'
-import'./imgs'
+import './about.css';
 
 function About() { 
     return (
-       <section class="container about" >
+       <section class="container about" id='about' >
               <div class="aboutText">
                 <h2 class="aboutMe">01. About</h2>
 
@@ -16,12 +15,8 @@ function About() {
 
                 <div className="technologies">
                 <h1 class="aboutHeading">Technology I have learnt:</h1>
-                <ul className="techFrameworks">
-                 <img src="./imgs/css3.png" alt="csd"/>
-                 <img src="./imgs/css3.png" alt="csd"/>
-                 <img src="my-app\src\imgs\css3.png" alt="csd"/>
-                       
-                </ul>
+                
+                
                 </div>
             
               </div>
