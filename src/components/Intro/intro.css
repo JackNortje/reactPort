@@ -1,26 +1,34 @@
 
 body { 
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Bebas Neue', sans-serif;
     background-color: #000000;
     color: rgba(255, 255, 255, .8);
+    width: 100%;
 }
 
-section { 
+.intro { 
     height: 100vh;
-    padding-top: 140px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .introText {
-    max-width: 700px;
+    max-width: 500px;
     padding: 18px;
-    border: solid rgba(255, 255, 255, .8);
-    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
 .introHeading1 {
   font-size: 18px;
   margin-bottom: 20px;
   font-weight: 500;
+  
 }
 
 .introHeading2 {
@@ -29,30 +37,82 @@ section {
 
 .introHeading3 {
   font-size: 20px;
+  
 }
 
 .introParagraph {
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
+  text-align: center;
 }
 .githubButton { 
-  background-color: rgba(255, 255, 255, .8);
-  color: #000000;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
   height: 50px;
   width: 150px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: solid #ffffff 2px;
+  
   
 }
 .github-projects { 
   color: #000000;
-
-  font-weight: 800;
+  display: flex;
 }
 
 .githubButton:hover { 
-  background-color: #000000;
+  background-color: rgba(255, 255, 255, .8);
   color: aliceblue;
 }
 
+@media (max-width: 500px) {
+  
+  .container .intro { 
+    
+    height: 100vh;
+    background-color: blue;
+  }
+  .intro { 
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    margin: 50%, 0, 50%, 0;
+  }
+  .introText { 
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  .introHeading2 { 
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .introParagraph { 
+    text-align: center;
+  }
+  .introHeading1 {
+  }
+  
+  .introHeading2 {
+    
+  }
+  
+  .introHeading3 {
+    margin-bottom: 60px;
+  }
+  
+  .introParagraph {
+    margin-bottom: 70px;
+    display: none;
+  }
+  .githubButton { 
+    border: 4px solid brown;
+    color: azure;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
