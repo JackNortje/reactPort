@@ -1,6 +1,8 @@
 .carousel { 
-    background-color: aqua;
-};
-.carousel-inner {
-    background-color: antiquewhite;
-};
+    height: 40vh;
+    background-color: green;
+    padding: auto;
+}
+p { 
+    align-items: center;
+}
